@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_thumbnail"
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_height="@dimen/_250sdp"/>
+
+    <TextView
+        android:id="@+id/video_name"
+        android:text="Name of Video"
+        android:layout_width="match_parent"
+        android:textAppearance="@style/ticket_paym"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_thumbnail"/>
+</RelativeLayout>

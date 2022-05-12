@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="color1">#0082E6</color>
+    <color name="color2">#004173</color>
+    <color name="color3">#FA4646</color>
+    <color name="color4">#7D2323</color>
+
+    <color name="primary"> #2699FB</color>
+    <color name="list_item_selected">#14000000</color>
+    <color name="primary_14">#332699FB</color>
+    <color name="primary_15">#33359CF3</color>
+
+    <color name="text_color">#484b4d</color>
+    <color name="btn_color">#69cac7</color>
+
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_500_tp">#DCDCDC</color>
+    <color name="grey_100">#F5F5F9</color>
+    <color name="white_op">#66F5F5F9</color>
+
+    <color name="colorPrimary1">#3F51B5</color>
+    <color name="colorPrimaryDark1">#303F9F</color>
+    <color name="colorAccent1">#FF4081</color>
+    <color name="line_divider">#dedede</color>
+    <color name="line">#767676</color>
+    <color name="dark_blue_start_color">#0082e6</color>
+    <color name="dark_blue_end_color">#004173</color>
+    <color name="dark_red_start_color">#fa4646</color>
+    <color name="dark_red_end_color">#7D2323</color>
+    <color name="dark_red_start_color_op">#66FA4646</color>
+    <color name="dark_red_end_color_op">#667D2323</color>
+
+    <color name="bus_color">#20D1DF</color>
+    <color name="trams_color">#F56B6B</color>
+    <color name="train_color">#7D2323</color>
+    <color name="subway_color">#3F51B5</color>
+    <color name="metro_color">#AAC62F</color>
+    <color name="taxi">#FECC00</color>
+    <color name="ferry_color">#7D2323</color>
+    <color name="bike_color">#F788FF</color>
+
+    <color name="main_blue">#0082E6</color>
+    <color name="main_blue1">#2882E6</color>
+    <color name="main_yellow">#FFD21E</color>
+    <color name="main_red">#FA4646</color>
+    <color name="snack_back">#FA4646</color>
+    <color name="tp_black">#66000000</color>
+
+    <color name="selected">#dcdcdc</color>
+    <color name="slideback">#66cdcdcd</color>
+    <color name="blur">#99cdcdcd</color>
+    <color name="background">#0548c1</color>
+</resources>

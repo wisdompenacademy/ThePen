@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingTop="@dimen/_10sdp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/option"
+        android:src="@drawable/ic_baseline_dehaze_24"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_height="@dimen/_40sdp"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/title"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_marginLeft="4dp"-->
+<!--        android:layout_toRightOf="@id/option"-->
+<!--        android:text="@string/app_name"-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="@dimen/_25sdp"-->
+<!--        android:textStyle="bold|italic" />-->
+    <ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/logo"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/option"/>
+    <ImageView
+        android:id="@+id/uploadVideo"
+        android:src="@drawable/ic_baseline_videocam_24"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/avatar"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_height="@dimen/_40sdp"/>
+    <RelativeLayout
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/profile_backg"
+        android:layout_height="@dimen/_35sdp">
+        <TextView
+            android:id="@+id/initial"
+            android:text="K"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</RelativeLayout>

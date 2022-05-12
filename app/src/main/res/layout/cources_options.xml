@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtTenth"
+        android:text="10th-MAH (Eng. Med.)"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_margin="@dimen/_16sdp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_blue"/>
+
+    <TextView
+        android:id="@+id/txtTwelfth"
+        android:text="10th-MAH STATE (Mar. Med.)"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_25sdp"
+        android:gravity="center"
+        android:layout_below="@+id/txtTenth"
+        android:textColor="@color/colorWhite"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:background="@drawable/btn_blue"/>
+
+    <TextView
+        android:id="@+id/txtTwelfthhMh"
+        android:text="12th-MAH STATE"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_below="@+id/txtTwelfth"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_blue"/>
+    <TextView
+        android:id="@+id/txt12thCBSC"
+        android:text="12th-CBSE"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_below="@+id/txtTwelfthhMh"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_blue"/>
+</RelativeLayout>

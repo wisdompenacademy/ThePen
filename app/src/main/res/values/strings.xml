@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">The Pen</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="network_connection">No Network Connection</string>
+    <string name="register">Register</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="emai_id">Login ID</string>
+    <string name="school_name">School Name</string>
+    <string name="standard">Standard</string>
+    <string name="fathers_name">Fathers Name</string>
+    <string name="phone_number">Mobile Number</string>
+    <string name="phone_number_hint">Mobile Number </string>
+    <string name="parent_phone">Parent Phone Number</string>
+    <string name="dateofbirth">DD/MM/YYYY</string>
+    <string name="something_went_wrong">Somethig went wrong</string>
+    <string name="invalid_user">Invalid user name or Password</string>
+    <string name="upload">Upload</string>
+    <string name="new_password">New Password</string>
+    <string name="confPassword">Confirm Password</string>
+    <string name="forgetPass"><u>Forgot Password</u></string>
+    <string name="diff_password_err">Password and confirm password must be same.</string>
+    <string name="student_declaration">Student\'s Declaration</string>
+    <string name="parent_declaration">Parent\'s Declaration  </string>
+    <string name="new_user"><u>New User? Register here</u></string>
+    <string name="register_as_teacher"><u>Register as teacher</u></string>
+    <string name="terms_con">Terms and Conditions</string>
+    <string name="read"><u>Read</u></string>
+    <string name="t_and_c"><u>Terms and Conditions</u></string>
+    <string name="objective">|<u>  Objective</u></string>
+    <string name="update">Update</string>
+    <string name="address">Address</string>
+</resources>

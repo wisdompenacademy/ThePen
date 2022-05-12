@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/name"
+        android:text="Name"
+        style="@style/tbl_txt"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/address"
+        android:text="Address"
+        style="@style/tbl_txt"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/exptSubject"
+        android:text="Sub Expert"
+        style="@style/tbl_txt"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/dob"
+        android:text="DOB"
+        style="@style/tbl_txt"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/phoneNo"
+        android:text="Phone"
+        style="@style/tbl_txt"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/userName"
+        android:text="User Name"
+        style="@style/tbl_txt"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

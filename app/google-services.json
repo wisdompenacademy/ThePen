@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "327035445199",
+    "firebase_url": "https://thepen-8c2ba.firebaseio.com",
+    "project_id": "thepen-8c2ba",
+    "storage_bucket": "thepen-8c2ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327035445199:android:32fad29e40c75606fafcba",
+        "android_client_info": {
+          "package_name": "com.thepen.thepen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327035445199-r6vb621s5qps2810i5mji5q8962qu1dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsimKSGmm7fu2XOvtgMmJoH_U6epsWa1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327035445199-r6vb621s5qps2810i5mji5q8962qu1dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

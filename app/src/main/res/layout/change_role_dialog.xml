@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:text="Change Role"
+        android:textColor="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="@dimen/_25sdp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tName"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/ticket_paym"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/userName"
+        android:gravity="center"
+        android:textAppearance="@style/ticket_paym"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/subExpt"
+        android:gravity="center"
+        android:textAppearance="@style/ticket_paym"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/make_admin"
+            android:text="Make Admin"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/make_teacher"
+            android:text="Make Teacher"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
